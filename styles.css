@@ -43,3 +43,15 @@ body {
 .selected {
   color: #fdff00;
 }
+
+/**************************************************** score display */
+.score-bg {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.score-bg p {
+  font-size: 3rem;
+  color: #556b2f;
+}

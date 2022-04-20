@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // star ids
+  // star icon ids
   const oneStar = document.getElementById("oneStar");
   const twoStars = document.getElementById("twoStars");
   const threeStars = document.getElementById("threeStars");
