@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
     firstBtn.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#dcdcdc";
+      threeStars.style.color = "#dcdcdc";
+      fourStars.style.color = "#dcdcdc";
+      fiveStars.style.color = "#dcdcdc";
     });
   };
   oneStarRating();
@@ -22,6 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
     secondBtn.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
+      threeStars.style.color = "#dcdcdc";
+      fourStars.style.color = "#dcdcdc";
+      fiveStars.style.color = "#dcdcdc";
     });
   };
   twoStarRating();
