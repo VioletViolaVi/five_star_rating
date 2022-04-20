@@ -6,6 +6,7 @@ This is a static website of a 5 star rating. Users can select the number of star
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Google Fonts](https://fonts.google.com/)
 
 # Credits
