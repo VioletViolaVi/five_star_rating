@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const firstBtn = document.getElementById("firstBtn");
     firstBtn.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
-      twoStars.style.color = "#dcdcdc";
-      threeStars.style.color = "#dcdcdc";
-      fourStars.style.color = "#dcdcdc";
-      fiveStars.style.color = "#dcdcdc";
+      twoStars.style.color = "#5d3954";
+      threeStars.style.color = "#5d3954";
+      fourStars.style.color = "#5d3954";
+      fiveStars.style.color = "#5d3954";
     });
   };
   oneStarRating();
@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
     secondBtn.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
-      threeStars.style.color = "#dcdcdc";
-      fourStars.style.color = "#dcdcdc";
-      fiveStars.style.color = "#dcdcdc";
+      threeStars.style.color = "#5d3954";
+      fourStars.style.color = "#5d3954";
+      fiveStars.style.color = "#5d3954";
     });
   };
   twoStarRating();
@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
       threeStars.style.color = "#fdff00";
-      fourStars.style.color = "#dcdcdc";
-      fiveStars.style.color = "#dcdcdc";
+      fourStars.style.color = "#5d3954";
+      fiveStars.style.color = "#5d3954";
     });
   };
   threeStarRating();
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       twoStars.style.color = "#fdff00";
       threeStars.style.color = "#fdff00";
       fourStars.style.color = "#fdff00";
-      fiveStars.style.color = "#dcdcdc";
+      fiveStars.style.color = "#5d3954";
     });
   };
   fourStarRating();
