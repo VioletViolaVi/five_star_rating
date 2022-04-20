@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // three star rating
   const threeStarRating = () => {
     const thirdBtn = document.getElementById("thirdBtn");
-    secondBtn.addEventListener("click", () => {
+    thirdBtn.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
       threeStars.style.color = "#fdff00";
@@ -45,15 +45,16 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   threeStarRating();
 
-
-
-
-
-
-
-
-
-
-
-  
+  // four star rating
+  const fourStarRating = () => {
+    const fourthBtn = document.getElementById("fourthBtn");
+    fourthBtn.addEventListener("click", () => {
+      oneStar.style.color = "#fdff00";
+      twoStars.style.color = "#fdff00";
+      threeStars.style.color = "#fdff00";
+      fourStars.style.color = "#fdff00";
+      fiveStars.style.color = "#dcdcdc";
+    });
+  };
+  fourStarRating();
 });
