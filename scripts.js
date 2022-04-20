@@ -57,4 +57,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
   fourStarRating();
+
+  // five star rating
+  const fiveStarRating = () => {
+    const fifthBtn = document.getElementById("fifthBtn");
+    fifthBtn.addEventListener("click", () => {
+      oneStar.style.color = "#fdff00";
+      twoStars.style.color = "#fdff00";
+      threeStars.style.color = "#fdff00";
+      fourStars.style.color = "#fdff00";
+      fiveStars.style.color = "#fdff00";
+    });
+  };
+  fiveStarRating();
 });
