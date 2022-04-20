@@ -33,13 +33,13 @@ body {
   align-items: center;
 }
 
+/**************************************************** stars */
 .form-bg i {
   font-size: 2rem;
-  color: #fdff00;
+  color: #dcdcdc;
   cursor: pointer;
 }
 
-.form-bg i:hover {
-  font-size: 2.5rem;
-  color: #ffff66;
+.selected {
+  color: #fdff00;
 }
