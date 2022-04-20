@@ -27,6 +27,13 @@ body {
 }
 
 /**************************************************** form */
+.star-rating-bg {
+  background-color: #006400;
+  width: 100%;
+  height: 6rem;
+  padding: 2rem 0;
+}
+
 .form-bg {
   display: flex;
   justify-content: space-evenly;
