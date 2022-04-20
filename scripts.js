@@ -31,4 +31,29 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
   twoStarRating();
+
+  // three star rating
+  const threeStarRating = () => {
+    const thirdBtn = document.getElementById("thirdBtn");
+    secondBtn.addEventListener("click", () => {
+      oneStar.style.color = "#fdff00";
+      twoStars.style.color = "#fdff00";
+      threeStars.style.color = "#fdff00";
+      fourStars.style.color = "#dcdcdc";
+      fiveStars.style.color = "#dcdcdc";
+    });
+  };
+  threeStarRating();
+
+
+
+
+
+
+
+
+
+
+
+  
 });
