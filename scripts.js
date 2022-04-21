@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // one star rating
   const oneStarRating = () => {
-    const firstBtn = document.getElementById("firstBtn");
-    firstBtn.addEventListener("click", () => {
+    const oneStar = document.getElementById("oneStar");
+    oneStar.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#5d3954";
       threeStars.style.color = "#5d3954";
@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // two star rating
   const twoStarRating = () => {
-    const secondBtn = document.getElementById("secondBtn");
-    secondBtn.addEventListener("click", () => {
+    const twoStars = document.getElementById("twoStars");
+    twoStars.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
       threeStars.style.color = "#5d3954";
@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // three star rating
   const threeStarRating = () => {
-    const thirdBtn = document.getElementById("thirdBtn");
-    thirdBtn.addEventListener("click", () => {
+    const threeStars = document.getElementById("threeStars");
+    threeStars.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
       threeStars.style.color = "#fdff00";
@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // four star rating
   const fourStarRating = () => {
-    const fourthBtn = document.getElementById("fourthBtn");
-    fourthBtn.addEventListener("click", () => {
+    const fourStars = document.getElementById("fourStars");
+    fourStars.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
       threeStars.style.color = "#fdff00";
@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // five star rating
   const fiveStarRating = () => {
-    const fifthBtn = document.getElementById("fifthBtn");
-    fifthBtn.addEventListener("click", () => {
+    const fiveStars = document.getElementById("fiveStars");
+    fiveStars.addEventListener("click", () => {
       oneStar.style.color = "#fdff00";
       twoStars.style.color = "#fdff00";
       threeStars.style.color = "#fdff00";
