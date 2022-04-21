@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // star icon ids
+  // star icon ids & score num
   const oneStar = document.getElementById("oneStar");
   const twoStars = document.getElementById("twoStars");
   const threeStars = document.getElementById("threeStars");
   const fourStars = document.getElementById("fourStars");
   const fiveStars = document.getElementById("fiveStars");
+  const scoreNum = document.getElementById("scoreNum");
 
   // one star rating
   const oneStarRating = () => {
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       threeStars.style.color = "#5d3954";
       fourStars.style.color = "#5d3954";
       fiveStars.style.color = "#5d3954";
+      scoreNum.innerHTML = "1";
     });
   };
   oneStarRating();
@@ -28,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       threeStars.style.color = "#5d3954";
       fourStars.style.color = "#5d3954";
       fiveStars.style.color = "#5d3954";
+      scoreNum.innerHTML = "2";
     });
   };
   twoStarRating();
@@ -41,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
       threeStars.style.color = "#fdff00";
       fourStars.style.color = "#5d3954";
       fiveStars.style.color = "#5d3954";
+      scoreNum.innerHTML = "3";
     });
   };
   threeStarRating();
@@ -54,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       threeStars.style.color = "#fdff00";
       fourStars.style.color = "#fdff00";
       fiveStars.style.color = "#5d3954";
+      scoreNum.innerHTML = "4";
     });
   };
   fourStarRating();
@@ -67,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
       threeStars.style.color = "#fdff00";
       fourStars.style.color = "#fdff00";
       fiveStars.style.color = "#fdff00";
+      scoreNum.innerHTML = "5";
     });
   };
   fiveStarRating();
