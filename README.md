@@ -9,5 +9,3 @@ This is a static website of a 5 star rating system. Users can select the number 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
-
-# Credits
