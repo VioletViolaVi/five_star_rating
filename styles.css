@@ -36,8 +36,16 @@ body {
 
 .form-bg {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+
+.form-bg input[type="radio"] {
+  display: none;
+}
+
+.form-bg input:not(:checked) ~ label:hover {
+  color: red;
 }
 
 /**************************************************** stars */
