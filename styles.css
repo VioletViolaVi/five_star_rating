@@ -27,10 +27,30 @@ body {
   color: #4b0082;
 }
 
+@media (min-width: 500px) {
+  .title {
+    margin-top: 6rem;
+  }
+
+  .title h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .title {
+    margin-top: 4rem;
+  }
+
+  .title h1 {
+    font-size: 7rem;
+  }
+}
 /**************************************************** stars */
 main {
   margin: auto 1rem;
-  border: solid 0.5rem #b39eb5;
+  border: solid 0.5rem #4b0082;
+  border-radius: 3rem;
 }
 
 .star-rating-bg {
@@ -52,13 +72,43 @@ main {
   color: #fdff00;
 }
 
-/**************************************************** score display */
-.score-bg {
-  display: flex;
-  justify-content: center;
+@media (min-width: 500px) {
+  .star-rating-bg i {
+    font-size: 4rem;
+  }
 }
 
+@media (min-width: 850px) {
+  main {
+    height: 21rem;
+  }
+
+  .star-rating-bg {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .star-rating-bg i {
+    font-size: 6rem;
+  }
+}
+
+/**************************************************** score display */
 .score-bg p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #4b0082;
+}
+
+@media (min-width: 500px) {
+  .score-bg p {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .score-bg p {
+    font-size: 7rem;
+    margin-top: 4rem;
+  }
 }
